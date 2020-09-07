@@ -23,15 +23,45 @@ Technologies used for this project:
 * [Gazebo](http://gazebosim.org/)  
 
 ### File Structure
+.
+├── git readme files                                                        #consist of images for readme file
+│   ├── image_1.png
+│   ├── image_2.png
+│   ├── laser test.mp4
+│   └── simplescreenrecorder-2020-09-06_13.55.43.mp4
+├── my_robot_description                                                   #main file consist of actual code
+│   ├── CMakeLists.txt
+│   ├── configure
+│   │   └── joints.yaml
+│   ├── launch                                                            #launch file for launching gazebo
+│   │   ├── rviz backup
+│   │   ├── rviz.launch
+│   │   ├── spawn backup
+│   │   └── spawn.launch
+│   ├── package.xml
+│   ├── rviz
+│   │   └── robotmodel.rviz                                          
+│   ├── scripts                                                            #consits of the script code of OA and reading_laser
+│   │   ├── obstacle_avoidance.py
+│   │   └── reading_laser.py
+│   ├── urdf                                                               #urdf file for robot model
+│   │   ├── macros.xacro
+│   │   ├── materials.xacro
+│   │   ├── plugin.gazebo
+│   │   ├── robot.urdf
+│   │   └── sacc
+│   └── world                                                               #world file for manupulating world
+│       ├── ad.dae
+│       └── empty_world.world
+└── README.md
+
 
 
 ## Getting Started
 1. Clone this repository.
-2. Launch your terminal and run the command `roslaunch my_worlds <world_name>.launch`. 
-   This will launch the gazebo environment.
-3. In another terminal, run the command `roslaunch my_robot_urdf robot.launch`. 
-This will load the dd robot in the gazebo environment at the origin.  
-4. In another terminal run `rosrun motion_plan OA.py`. This will start the robot and obstacle avoidance algorithm.
+2. Launch your terminal and run the command `roslaunch my_robot_description spawn.launch`. 
+   This will launch the bot in gazebo environment.  
+3. In another terminal run `rosrun my_robot_description obstacle_avoidance.py`. This will start the robot and obstacle avoidance algorithm.
 
 ## Prerequisites  
 * [ROS](http://wiki.ros.org/kinetic)  
@@ -40,14 +70,14 @@ This will load the dd robot in the gazebo environment at the origin.
 ### Installation
 Clone the repo
 ```sh
-git clone https://github.com/Git-Saurabh5/Obstacle-Avoidance-Using-Ros-Gazebo.git
+git clone https://github.com/dushantpanchbhai/sra_assignment.git
 ```
 ## Results and Demo
-### GIF
-![](https://github.com/Git-Saurabh5/Obstacle-Avoidance-Using-Ros-Gazebo/blob/master/Visuals/oa.gif)
+### Bot image
+![](/git_readme_files/image_1.png)
+![](/git_readme_files/image_2.png)
 ### Video
-[Obstacle Avoidance](https://youtu.be/btZGbhEyh00)
-
+[Obstacle Avoidance]video
 ## Future Work
 - [ ] Motion Planning Algorithm
 - [ ] Path Planning Algorithm
@@ -56,7 +86,7 @@ git clone https://github.com/Git-Saurabh5/Obstacle-Avoidance-Using-Ros-Gazebo.gi
 * Common errors while configuring the project
 
 ## Contributors
-* [Saurabh Suresh Powar](https://github.com/Git-Saurabh5)
+* [Dushant Panchbhai](https://github.com/dushantpanchbhai)
 
 ## Acknowledgements and Resources
 * [SRA VJTI](https://github.com/SRA-VJTI)
