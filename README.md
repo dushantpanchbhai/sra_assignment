@@ -24,33 +24,33 @@ Technologies used for this project:
 
 ### File Structure
 .
-├── git readme files                                                        # consist of images for readme file
+├── git readme files                                                           # consist of images for readme file
 │   ├── image_1.png
 │   ├── image_2.png
 │   ├── laser test.mp4
-│   └── simplescreenrecorder-2020-09-06_13.55.43.mp4
-├── my_robot_description                                                   # main file consist of actual code
-│   ├── CMakeLists.txt
-│   ├── configure
-│   │   └── joints.yaml
-│   ├── launch                                                            # launch file for launching gazebo
-│   │   ├── rviz backup
+│   └── simplescreenrecorder-2020-09-06_13.55.43.mp4                          
+├── my_robot_description                                                       # main file consist of actual code
+│   ├── CMakeLists.txt                                                            
+│   ├── configure                                                              
+│   │   └── joints.yaml                                                          
+│   ├── launch                                                                 # launch file for launching gazebo
+│   │   ├── rviz backup                                                        
 │   │   ├── rviz.launch
 │   │   ├── spawn backup
 │   │   └── spawn.launch
 │   ├── package.xml
 │   ├── rviz
 │   │   └── robotmodel.rviz                                          
-│   ├── scripts                                                            # consits of the script code of OA and reading_laser
-│   │   ├── obstacle_avoidance.py
-│   │   └── reading_laser.py
-│   ├── urdf                                                               # urdf file for robot model
-│   │   ├── macros.xacro
-│   │   ├── materials.xacro
-│   │   ├── plugin.gazebo
-│   │   ├── robot.urdf
-│   │   └── sacc
-│   └── world                                                               # world file for manupulating world
+│   ├── scripts                                                                 # consits of the script code of OA and reading_laser
+│   │   ├── obstacle_avoidance.py                                                
+│   │   └── reading_laser.py                                                        
+│   ├── urdf                                                                    # urdf file for robot model
+│   │   ├── macros.xacro                                                                   
+│   │   ├── materials.xacro                                                              
+│   │   ├── plugin.gazebo                                                               
+│   │   ├── robot.urdf                                                                 
+│   │   └── sacc                                                                       
+│   └── world                                                                   # world file for manupulating world
 │       ├── ad.dae
 │       └── empty_world.world
 └── README.md
