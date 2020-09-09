@@ -58,10 +58,11 @@ Technologies used for this project:
 
 
 ## Getting Started
-1. Clone this repository.
-2. Launch your terminal and run the command `roslaunch my_robot_description spawn.launch`. 
-   This will launch the bot in gazebo environment.  
-3. In another terminal run `rosrun my_robot_description obstacle_avoidance.py`. This will start the robot and obstacle avoidance algorithm.
+1. Clone this repository in your src folder of ROS.
+2. Launch your terminal and go to catkin_ws folder(workspace folder of ROS).
+3. Now run the command `catkin_make` to add it to ros and then run `source ~/catkin_ws/devel/setup.bash` to build it.
+4. Then enter `cd src` to go to the src directory Run the command `roslaunch my_robot_description spawn.launch`.This will launch the bot in gazebo environment.  
+3. In another terminal enter src directory and run `rosrun my_robot_description obstacle_avoidance.py`. This will start the obstacle avoidance algorithm and robot will perform obstacle avoidance
 
 ## Prerequisites  
 * [ROS](http://wiki.ros.org/kinetic)  
