@@ -77,10 +77,7 @@ git clone https://github.com/dushantpanchbhai/sra_assignment.git
 ![](/git_readme_files/image_1.png)
 ![](/git_readme_files/image_2.png)
 ### Video
-[Obstacle Avoidance]video
-## Future Work
-- [ ] Motion Planning Algorithm
-- [ ] Path Planning Algorithm
+![](https://youtu.be/FrSkhQ49nTs)
 
 ## Troubleshooting
 * Common errors while configuring the project
