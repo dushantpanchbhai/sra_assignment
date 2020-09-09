@@ -77,7 +77,7 @@ git clone https://github.com/dushantpanchbhai/sra_assignment.git
 ![](/git_readme_files/image_1.png)
 ![](/git_readme_files/image_2.png)
 ### Video
-![](https://youtu.be/FrSkhQ49nTs)
+* [click here](https://youtu.be/FrSkhQ49nTs)
 
 ## Troubleshooting
 * Common errors while configuring the project
